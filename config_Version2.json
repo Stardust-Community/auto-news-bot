@@ -1,0 +1,15 @@
+{
+  "channels": [
+    "channel_1",
+    "channel_2"
+  ],
+  "start_message": "👋 Welcome! Here are the latest Anime and Movie News:",
+  "format": "**{title}**\n🔗 {url}\n{summary}\n",
+  "interval_minutes": 60,
+  "anime_feeds": [
+    "https://www.animenewsnetwork.com/all/rss.xml"
+  ],
+  "movies_feeds": [
+    "https://www.empireonline.com/movies/rss/all/"
+  ]
+}
