@@ -1,3 +1,5 @@
+#STARDUST PRESENTS
+
 # Auto Anime & Movies News Bot
 
 A Telegram bot that fetches and posts the latest news headlines from Anime News Network and IMDb every hour.
