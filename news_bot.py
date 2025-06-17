@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import logging
 import feedparser
 from apscheduler.schedulers.background import BackgroundScheduler
@@ -19,7 +22,7 @@ def fetch_and_post_news():
             if entry.link not in posted_links:
                 title = entry.title
                 link = entry.link
-                summary = entry.summary if hasattr(entry, "summary") else ""
+                summary = getattr(entry, "summary", "")
                 msg = f"<b>{title}</b>\n{summary}\n<a href='{link}'>Read more</a>"
                 messages.append(msg)
                 posted_links.add(entry.link)
