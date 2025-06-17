@@ -1,4 +1,4 @@
-#STARDUST PRESENTS
+STARDUST PRESENTS
 
 # Auto Anime & Movies News Bot
 
